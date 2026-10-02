@@ -181,7 +181,7 @@
 
 	<script>
 		/* ข้อมูลเกมและแพตช์ทั้งหมด */
-																																																				const games = {
+																																																						const games = {
 			sm64thai: {
 				title: 'SM64_Thai (ภาษาไทย)',
 				image: './covers/SysDVR_2026_10_01_15_14_52.png',
@@ -190,6 +190,17 @@
 				description: 'ม็อดแปลภาษาไทยสำหรับ SM64_Thai',
 				outputName: 'Super Mario 64 (USA) AMNAJ',
 				inputCrc32: '3ce60709',
+				enabled: true
+			},
+
+			starfox64usarev1thai: {
+				title: 'Star Fox 64 (USA) (Rev 1) [Thai] (ภาษาไทย)',
+				image: './covers/1.png',
+				patchFile: './Star Fox 64 (USA) (Rev 1) [Thai].bps',
+				patchName: 'Star Fox 64 (USA) (Rev 1) [Thai]',
+				description: 'ม็อดแปลภาษาไทยสำหรับ Star Fox 64 (USA) (Rev 1) [Thai]',
+				outputName: 'Star Fox 64 (USA) (Rev 1) AMNAJ',
+				inputCrc32: 'b1b5fc46',
 				enabled: true
 			}
 		};
@@ -361,6 +372,7 @@
 
 			<select id="game-selector">
 				<option value="sm64thai">SM64_Thai (ภาษาไทย)</option>
+				<option value="starfox64usarev1thai">Star Fox 64 (USA) (Rev 1) [Thai] (ภาษาไทย)</option>
 			</select>
 		</div>
 
